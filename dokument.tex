@@ -4,16 +4,17 @@
 \usepackage[utf8]{inputenc}
 \usepackage{polski}
 \usepackage[T1]{fontenc}
+\usepackage[pdftex]{color,graphicx}
 \frenchspacing
 \begin{document}
 \emph{Złoty podział} wykorzystuje się często w estetycznych, proporcjonalnych kompozycjach architektonicznych, malarskich, fotograficznych itp. Znany był już w starożytności i przypisywano mu wyjątkowe walory estetyczne. Stosowano go np. w planach budowli na Akropolu. Co najmniej od XX wieku wielu artystów i architektów tworzyło swoje dzieła z zachowaniem złotego stosunku - szczególnie w formie złotego prostokąta, w którym stosunek dłuższego boku do krótszego jest równy złotej proporcji - zgodnie z poglądem, że takie proporcje wyglądają estetycznie. Złoty prostokąt może być rozcięty na kwadrat i mniejszy prostokąt o tych samych proporcjach co rozcinany. Matematycy, począwszy od Euklidesa, badali złoty podział z powodu jego wyjątkowych i interesujących własności. Złoty podział jest także używany w analizie rynków finansowych, w strategiach takich jak \emph{odbicie Fibonacciego}.
 \\
-\begin{center}Dwie wielkości a i b są w złotym stosunku $\Phi$, jeżeli:\end{center}
+\begin{center}Według Wikipedii\cite{wk} dwie wielkości a i b są w złotym stosunku $\Phi$, jeżeli:\end{center}
 \begin{equation}
 \frac{a+b}{a} = \frac{a}{b} = \Phi
 \label{eq:pierwsze}
 \end{equation}
-\begin{center} Równanie \begin{math} \Phi^{2} = 1 + \Phi \end{math} również produkuje łańcuchowy pierwiastek kwadratowy, to znaczy:\end{center}
+\begin{center} Równanie \begin{math} \Phi^{2} = 1 + \Phi \end{math} również produkuje łańcuchowy pierwiastek kwadratowy, jak mówią w książce\cite{ks}, to znaczy:\end{center}
 \begin{equation}
 \Phi = \sqrt{ 1+\sqrt{1+{\sqrt{1+{\sqrt{\ldots}}}}}}
 \label{eq:drugie}
@@ -42,5 +43,11 @@ Na rysunku \ref{fig:kepler} widać jak wyglądają te proporcje w praktyce po ra
 \caption{Trójkąt Keplera}
 \label{fig:kepler}
 \end{figure}
+\newpage
+\begin{thebibliography}{99}
+\bibitem{wk} Wikipedia
+https://pl.wikipedia.org/wiki/Złoty\_podział
+\bibitem{ks} Fernando Corbalan
+\emph{,,Złota Proporcja: <<Matematyczny język piękna>>''}
+\end{thebibliography}
 \end{document}
-
